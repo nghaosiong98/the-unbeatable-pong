@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b9d320b5-ef99-a8a5-8a06-21261ca30aa0}</ProjectGuid>
+    <ProjectGuid>{8f343781-da0a-7def-4b44-da4bcf7ba618}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEditor.TestRunner</AssemblyName>
@@ -389,7 +389,7 @@
         <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -748,7 +748,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{4adbee82-9206-a17f-ae55-5559a1244446}</Project>
+      <Project>{c2350373-925c-e2b7-6ef2-917b23eebbc1}</Project>
       <Name>UnityEngine.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

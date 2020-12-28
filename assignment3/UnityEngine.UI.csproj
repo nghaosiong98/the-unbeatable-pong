@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{69b2c0a8-12ac-2293-54af-fabdce2e1a9e}</ProjectGuid>
+    <ProjectGuid>{8ae377b1-6e45-0ef3-a966-7c093046e6f1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.UI</AssemblyName>
@@ -315,13 +315,13 @@
         <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

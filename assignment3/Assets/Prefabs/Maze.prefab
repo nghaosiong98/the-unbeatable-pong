@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d65c8cd43c3444292ce0207394cfce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 10
-  height: 10
+  width: 20
+  height: 20
   pathVisible: 0
   exitCellDistance: 0.55
   CellPrefab: {fileID: 392521320300761443, guid: a1fd2657e569e1f448f34614153ca64d,
@@ -54,4 +54,4 @@ MonoBehaviour:
   entryCellMaterial: {fileID: 2100000, guid: 4184bfdb70abada44ae008583ecff002, type: 2}
   exitCellMaterial: {fileID: 2100000, guid: 5ae9d6c2b700ea64b8759684ce25c34f, type: 2}
   defaultCellMaterial: {fileID: 2100000, guid: b488d9b7b1c70e54e9c80ea1f6650c23, type: 2}
-  delay: 0.1
+  delay: 0

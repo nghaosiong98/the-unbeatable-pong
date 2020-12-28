@@ -34,6 +34,7 @@ public class Maze : MonoBehaviour
     public IEnumerator Generate()
     { 
         // Initialize the first cell as entry cell
+        DateTime startTime = DateTime.Now;
         Cell currentCell = PlaceRandomEntryCell();
         currentLength++;
         cellDistances[currentCell.Location.x, currentCell.Location.z] = currentLength;
@@ -70,15 +71,17 @@ public class Maze : MonoBehaviour
         }
 
         CreateCellWalls();
-
+        DateTime endTime = DateTime.Now;
+        String totalTime = endTime.Subtract(startTime).ToString();
+        print("Total time taken: " + totalTime);
         print("Generate complete");
     }
 
     public IEnumerator GenerateBTA() {
-
+        DateTime startTime = DateTime.Now;
         for (int x = 0; x < width; x ++) {
             for (int z = 0; z < height; z ++) {
-                print(String.Format("x: {0}, z: {1}", x, z));
+                // print(String.Format("x: {0}, z: {1}", x, z));
                 CellLocation current_location = new CellLocation(x, z);
                 Cell currentCell = PlaceCell(current_location);
 
@@ -100,7 +103,7 @@ public class Maze : MonoBehaviour
                     validDirections.Shuffle();
                     CellDirection selectedDirection = (CellDirection) validDirections[0];
                     CellLocation neighbourLocation = currentCell.Location + selectedDirection.ToRelativeCellLocation();
-                    print(String.Format("nx: {0}, nz: {1}", neighbourLocation.x, neighbourLocation.z));
+                    // print(String.Format("nx: {0}, nz: {1}", neighbourLocation.x, neighbourLocation.z));
                     CellDirection fromDirection = selectedDirection.GetOpposite();
                     currentCell.AddConnection(selectedDirection);
                     cells[neighbourLocation.x, neighbourLocation.z].AddConnection(fromDirection);
@@ -114,7 +117,9 @@ public class Maze : MonoBehaviour
         }
 
         CreateCellWalls();
-
+        DateTime endTime = DateTime.Now;
+        String totalTime = endTime.Subtract(startTime).ToString();
+        print("Total time taken: " + totalTime);
         print("Generate complete");
     }
 
@@ -122,7 +127,7 @@ public class Maze : MonoBehaviour
     {
         float ratio = cellDistances[cell.Location.x, cell.Location.z] / (float)(width * height);
         bool met = ratio >= exitCellDistance;
-        print(cell.name + ", ratio: " + ratio + ", met:" + met);
+        // print(cell.name + ", ratio: " + ratio + ", met:" + met);
         return met;
     }
 

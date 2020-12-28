@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{06551884-17f9-a541-0645-d8f7e13d25bc}</ProjectGuid>
+    <ProjectGuid>{aba0166e-ef8a-55ae-3ba7-db9438707b49}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VSCode.Editor</AssemblyName>
@@ -237,16 +237,16 @@
         <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -605,22 +605,22 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2bea3674-1434-78fe-6c1f-f8ab39388537}</Project>
+      <Project>{9a56acf5-0f1b-ebb1-d761-25fbbcb53194}</Project>
       <Name>UnityEditor.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{69b2c0a8-12ac-2293-54af-fabdce2e1a9e}</Project>
+      <Project>{8ae377b1-6e45-0ef3-a966-7c093046e6f1}</Project>
       <Name>UnityEngine.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{b9d320b5-ef99-a8a5-8a06-21261ca30aa0}</Project>
+      <Project>{8f343781-da0a-7def-4b44-da4bcf7ba618}</Project>
       <Name>UnityEditor.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{4adbee82-9206-a17f-ae55-5559a1244446}</Project>
+      <Project>{c2350373-925c-e2b7-6ef2-917b23eebbc1}</Project>
       <Name>UnityEngine.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

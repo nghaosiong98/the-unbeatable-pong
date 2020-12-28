@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{bbc4f9b5-43f7-9dd4-d83c-3b6dd44baf74}</ProjectGuid>
+    <ProjectGuid>{b810eba9-229a-7aee-a806-fe7b4f2418b8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -43,6 +43,7 @@
      <Compile Include="Assets\Scripts\ExtensionMethods.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Maze.cs" />
+     <Compile Include="Assets\Scripts\MoveCameraScript.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -227,13 +228,13 @@
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>D:/UnityProjects/Maze-Generation/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+        <HintPath>D:/Workplace/the-unbeatable-pong/assignment3/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -583,87 +584,87 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{6fe9134f-53bc-ecba-2c66-f8accd7704e4}</Project>
+      <Project>{67cd1947-a93d-8094-75b2-335d4c69daa9}</Project>
       <Name>Unity.Timeline.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Monetization.csproj">
-      <Project>{c5ae7dff-1abd-c73b-642a-0276a2f90305}</Project>
+      <Project>{709de221-d791-b038-93d4-4828f0c8e7cc}</Project>
       <Name>UnityEngine.Monetization</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{06551884-17f9-a541-0645-d8f7e13d25bc}</Project>
+      <Project>{aba0166e-ef8a-55ae-3ba7-db9438707b49}</Project>
       <Name>Unity.VSCode.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.csproj">
-      <Project>{2125778f-b171-499c-10e2-b3274fa41329}</Project>
+      <Project>{d5fdcf19-7086-e7e4-8571-a9ae0acda7e0}</Project>
       <Name>UnityEngine.Advertisements</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{3e9717b3-986b-c9f0-b6e8-e8663ddcba63}</Project>
+      <Project>{afe4f6b5-123c-df4d-1a56-5f040b1b81b5}</Project>
       <Name>UnityEngine.Purchasing</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.Purchasing.csproj">
-      <Project>{2c3cb47a-62d8-565a-8a9a-370641d03d51}</Project>
+      <Project>{3410ac81-c70c-f778-6efd-974c14cef63a}</Project>
       <Name>UnityEditor.Purchasing</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{2e255bc2-a388-d8e4-3353-2bda3e89160d}</Project>
+      <Project>{4e371f1b-3ae0-8758-9ba4-495fdbcfa7f3}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{69b2c0a8-12ac-2293-54af-fabdce2e1a9e}</Project>
+      <Project>{8ae377b1-6e45-0ef3-a966-7c093046e6f1}</Project>
       <Name>UnityEngine.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{f005f485-dcef-d70f-c4c9-670b84b53934}</Project>
+      <Project>{ebd3b93e-bd6a-ce25-be0a-e447b3b975f3}</Project>
       <Name>Unity.Timeline</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{5c5aa0df-a579-a0f1-87d0-f5a8237fbc46}</Project>
+      <Project>{544a726e-bf47-9bb8-7f36-c8069f1b9506}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{3e38e885-1821-efbd-c9d2-70794d69f12c}</Project>
+      <Project>{ea5ae4a6-bf0d-02f5-d28c-b3dbf0b659f5}</Project>
       <Name>Unity.Rider.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{22c8f5ac-ad4d-98ed-0382-2c1677d7899d}</Project>
+      <Project>{e98eda63-2bff-c58b-a0db-bec04fbca6cc}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{9e6e24c4-91ba-cd2d-ea59-9a33c82d4929}</Project>
+      <Project>{f58abc53-a3d4-4374-b3de-b6ef7f053ee9}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
-      <Project>{11bc8236-0e64-9e5a-9ab2-61508c0c234c}</Project>
+      <Project>{1725bab2-e18d-bd7d-874c-794f2ebf23bf}</Project>
       <Name>UnityEngine.Advertisements.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{cd424001-3d1b-1182-3485-f4f820cb4d0a}</Project>
+      <Project>{d17d9531-a8f9-ff6b-73cf-1de71f34191a}</Project>
       <Name>Unity.TextMeshPro</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{7f2b0b73-1060-4c0c-abdd-6feea9e69f76}</Project>
+      <Project>{9774ff73-4059-18f6-572d-a2fa20bb3265}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2bea3674-1434-78fe-6c1f-f8ab39388537}</Project>
+      <Project>{9a56acf5-0f1b-ebb1-d761-25fbbcb53194}</Project>
       <Name>UnityEditor.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
