@@ -1,0 +1,94 @@
+*********
+ Evaluating: ID_Improved 
+*********
+
+Playing Matches:
+----------
+  Match 1: ID_Improved vs   Random    	Result: 82 to 18
+  Match 2: ID_Improved vs   MM_Null   	Result: 70 to 30
+  Match 3: ID_Improved vs   MM_Open   	Result: 54 to 46
+  Match 4: ID_Improved vs MM_Improved 	Result: 39 to 61
+  Match 5: ID_Improved vs   AB_Null   	Result: 62 to 38
+  Match 6: ID_Improved vs   AB_Open   	Result: 62 to 38
+  Match 7: ID_Improved vs AB_Improved 	Result: 54 to 46
+
+
+Results:
+----------
+ID_Improved         60.43%
+
+*********
+Evaluating: Student Robinson
+*********
+
+Playing Matches:
+----------
+  Match 1: Student Robinson vs   Random    	Result: 84 to 16
+  Match 2: Student Robinson vs   MM_Null   	Result: 70 to 30
+  Match 3: Student Robinson vs   MM_Open   	Result: 58 to 42
+  Match 4: Student Robinson vs MM_Improved 	Result: 53 to 47
+  Match 5: Student Robinson vs   AB_Null   	Result: 70 to 30
+  Match 6: Student Robinson vs   AB_Open   	Result: 66 to 34
+  Match 7: Student Robinson vs AB_Improved 	Result: 62 to 38
+
+
+Results:
+----------
+Student Robinson     66.14%
+
+*********
+Evaluating: Student Jun Shou
+*********
+
+Playing Matches:
+----------
+  Match 1: Student Jun Shou vs   Random    	Result: 84 to 16
+  Match 2: Student Jun Shou vs   MM_Null   	Result: 74 to 26
+  Match 3: Student Jun Shou vs   MM_Open   	Result: 59 to 41
+  Match 4: Student Jun Shou vs MM_Improved 	Result: 55 to 45
+  Match 5: Student Jun Shou vs   AB_Null   	Result: 71 to 29
+  Match 6: Student Jun Shou vs   AB_Open   	Result: 70 to 30
+  Match 7: Student Jun Shou vs AB_Improved 	Result: 60 to 40
+
+
+Results:
+----------
+Student Jun Shou     67.57%
+
+*********
+Evaluating: Student Hao Siong
+*********
+
+Playing Matches:
+----------
+  Match 1: Student Hao Siong vs   Random    	Result: 86 to 14
+  Match 2: Student Hao Siong vs   MM_Null   	Result: 77 to 23
+  Match 3: Student Hao Siong vs   MM_Open   	Result: 55 to 45
+  Match 4: Student Hao Siong vs MM_Improved 	Result: 51 to 49
+  Match 5: Student Hao Siong vs   AB_Null   	Result: 68 to 32
+  Match 6: Student Hao Siong vs   AB_Open   	Result: 66 to 34
+  Match 7: Student Hao Siong vs AB_Improved 	Result: 59 to 41
+
+
+Results:
+----------
+Student Hao Siong     66.00%
+
+*********
+Evaluating: Student Marina
+*********
+
+Playing Matches:
+----------
+  Match 1: Student Marina vs   Random    	Result: 87 to 13
+  Match 2: Student Marina vs   MM_Null   	Result: 65 to 35
+  Match 3: Student Marina vs   MM_Open   	Result: 52 to 48
+  Match 4: Student Marina vs MM_Improved 	Result: 40 to 60
+  Match 5: Student Marina vs   AB_Null   	Result: 70 to 30
+  Match 6: Student Marina vs   AB_Open   	Result: 58 to 42
+  Match 7: Student Marina vs AB_Improved 	Result: 57 to 43
+
+
+Results:
+----------
+Student Marina      61.29%
